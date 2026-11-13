@@ -1,0 +1,9 @@
+{% extends "rest_framework/base.html" %}
+
+{% block title %}API Vehículos{% endblock %}
+
+{% block branding %}
+  <a class="navbar-brand" rel="nofollow" href="/api/vehiculos/">
+    API REST Vehículos &nbsp;|&nbsp; URL: {{ request.build_absolute_uri }}
+  </a>
+{% endblock %}
